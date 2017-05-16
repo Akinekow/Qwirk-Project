@@ -1,0 +1,16 @@
+// Authentication Pages
+#ui-login {
+  &.ng-enter {
+    @include fadeIn($delay: 0.5s);
+  }
+  &.ng-leave {
+    @include fadeOut();
+  }
+}
+
+.wood{background: url('../assets/images/backgrounds/photos/retina_wood_@2X.png') repeat;}
+
+
+md-input-container ng-messages, md-input-container data-ng-messages {
+  display: block;
+}
