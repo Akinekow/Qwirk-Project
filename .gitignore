@@ -1,4 +1,6 @@
 node_modules
-
-# Log files
-/*.log
+dist
+bower_components
+.tmp
+.DS_Store
+.idea
